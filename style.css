@@ -1,0 +1,37 @@
+body
+{
+    background-size: cover;
+    background-image: linear-gradient(to left bottom, #ff6262, #fc7cc6, #beadff, #75d4ff, #7ceeff);
+}
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+#button
+{
+    font-size: 18px;
+}
+#start, #object-found
+{
+    font-size: 18px;
+}
+.copy_right_footer
+{
+    position: fixed;
+    color: rgb(39, 31, 31);
+    bottom: 0;
+    width: 100%;
+    background-color:steelblue;
+    line-height: 3;
+    text-align: center;
+
+}
+canvas
+{
+    border: 2px solid rgb(197, 139, 85);
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px black;
+}
